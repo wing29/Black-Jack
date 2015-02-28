@@ -1,0 +1,37 @@
+button{
+	font-family: Lato, Helvetica, Arial, sans-serif;
+	font-size: 0.7em;
+	color: white;
+	width: auto;
+	padding: 5px 20px 5px 20px;
+	background-color: #00A1CB;
+	border-radius: 6px;
+	box-shadow: 0px 1px 0px #01A4A4;
+	outline:none;
+}
+h3{
+	display: inline;
+}
+
+.container{
+	margin-right: auto;
+	margin-left: 100px;
+	margin-top: 40px;
+	font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.bigButton{
+	background-color: #F18D05;
+}
+
+.HandContainer{
+	margin-bottom: 10px;
+}
+.score{
+	margin-bottom: 10px;
+	display: block;
+}
+.result{
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
