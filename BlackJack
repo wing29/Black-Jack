@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Black Jack</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script src="js/blackjack.js"></script>
+</head>
+<body class="container">
+	<div>
+		
+		<div id="dealer">
+			
+			<div class="score">
+				<h3>Dealer:</h3>
+				<span id="dealer_score"></span>
+			</div>
+			<div class="HandContainer">
+				<img id="dealer_card1" src="img/b1fv.png" alt="cardBack">
+				<img id="dealer_card2" src="img/b1fv.png" alt="cardBack">
+				<img id="dealer_card3" src="" alt="">
+				<img id="dealer_card4" src="" alt="">
+				<img id="dealer_card5" src="" alt="">
+			</div>
+		</div>
+		<div id="player">
+			<div>
+				<div class="score" >
+					<h3>Player:</h3>
+					<span id="player_score"></span>
+				</div>
+				<div class="HandContainer">
+					<img id="player_card1" src="img/b1fv.png" alt="cardBack">
+					<img id="player_card2" src="img/b1fv.png" alt="cardBack">
+					<img id="player_card3" src="" alt="">
+					<img id="player_card4" src="" alt="">
+					<img id="player_card5" src="" alt="">
+				</div>
+
+			</div>	
+		</div>	
+	</div>
+	<div>
+		<button id="hit" onClick="hit()">Hit</button>
+		<button id="stand" onClick="stand()">Stand</button>
+		<button class="bigButton"id="deal" onClick="refresh()">Deal</button>
+		<button id="reset" onClick="reset()">Play Again</button>
+		<div class="result" id="game_result"></div>
+	</div>
+</body>
+</html>
